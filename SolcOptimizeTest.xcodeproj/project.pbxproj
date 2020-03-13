@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3AB64574AA189278FBFFDB /* Pods_SolcOptimizeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2DCD5C40E468C1676045D7 /* Pods_SolcOptimizeTest.framework */; };
+		E77E7E5C241B3C560068B01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E5B241B3C560068B01C /* AppDelegate.swift */; };
+		E77E7E5E241B3C560068B01C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E77E7E5D241B3C560068B01C /* GameScene.sks */; };
+		E77E7E60241B3C560068B01C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E77E7E5F241B3C560068B01C /* Actions.sks */; };
+		E77E7E62241B3C560068B01C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E61241B3C560068B01C /* GameScene.swift */; };
+		E77E7E64241B3C560068B01C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E63241B3C560068B01C /* GameViewController.swift */; };
+		E77E7E67241B3C560068B01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77E7E65241B3C560068B01C /* Main.storyboard */; };
+		E77E7E69241B3C580068B01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77E7E68241B3C580068B01C /* Assets.xcassets */; };
+		E77E7E6C241B3C580068B01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77E7E6A241B3C580068B01C /* LaunchScreen.storyboard */; };
+		E77E7E77241B3D790068B01C /* TestSolcOptimize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E74241B3D790068B01C /* TestSolcOptimize.swift */; };
+		E77E7E78241B3D790068B01C /* Web3Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E75241B3D790068B01C /* Web3Helper.swift */; };
+		E77E7E82241B4CB10068B01C /* CompileOpt5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E81241B4CB10068B01C /* CompileOpt5.swift */; };
+		E77E7E84241B54650068B01C /* CompileOpt4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E7E83241B54650068B01C /* CompileOpt4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB2DCD5C40E468C1676045D7 /* Pods_SolcOptimizeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolcOptimizeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77E7E58241B3C560068B01C /* SolcOptimizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolcOptimizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77E7E5B241B3C560068B01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E77E7E5D241B3C560068B01C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E77E7E5F241B3C560068B01C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E77E7E61241B3C560068B01C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E77E7E63241B3C560068B01C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E77E7E66241B3C560068B01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77E7E68241B3C580068B01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77E7E6B241B3C580068B01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77E7E6D241B3C580068B01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77E7E74241B3D790068B01C /* TestSolcOptimize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSolcOptimize.swift; sourceTree = "<group>"; };
+		E77E7E75241B3D790068B01C /* Web3Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3Helper.swift; sourceTree = "<group>"; };
+		E77E7E81241B4CB10068B01C /* CompileOpt5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompileOpt5.swift; sourceTree = "<group>"; };
+		E77E7E83241B54650068B01C /* CompileOpt4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompileOpt4.swift; sourceTree = "<group>"; };
+		F3046021FAC57CBAE68EA26B /* Pods-SolcOptimizeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcOptimizeTest.debug.xcconfig"; path = "Target Support Files/Pods-SolcOptimizeTest/Pods-SolcOptimizeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F6067F6B44B7DDA262612749 /* Pods-SolcOptimizeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolcOptimizeTest.release.xcconfig"; path = "Target Support Files/Pods-SolcOptimizeTest/Pods-SolcOptimizeTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77E7E55241B3C560068B01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3AB64574AA189278FBFFDB /* Pods_SolcOptimizeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A153A7AF53FE5180270360C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3046021FAC57CBAE68EA26B /* Pods-SolcOptimizeTest.debug.xcconfig */,
+				F6067F6B44B7DDA262612749 /* Pods-SolcOptimizeTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E77E7E4F241B3C560068B01C = {
+			isa = PBXGroup;
+			children = (
+				E77E7E5A241B3C560068B01C /* SolcOptimizeTest */,
+				E77E7E59241B3C560068B01C /* Products */,
+				A153A7AF53FE5180270360C6 /* Pods */,
+				F96098A4359E0BF3D109348F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E77E7E59241B3C560068B01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77E7E58241B3C560068B01C /* SolcOptimizeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77E7E5A241B3C560068B01C /* SolcOptimizeTest */ = {
+			isa = PBXGroup;
+			children = (
+				E77E7E74241B3D790068B01C /* TestSolcOptimize.swift */,
+				E77E7E81241B4CB10068B01C /* CompileOpt5.swift */,
+				E77E7E83241B54650068B01C /* CompileOpt4.swift */,
+				E77E7E75241B3D790068B01C /* Web3Helper.swift */,
+				E77E7E5B241B3C560068B01C /* AppDelegate.swift */,
+				E77E7E5D241B3C560068B01C /* GameScene.sks */,
+				E77E7E5F241B3C560068B01C /* Actions.sks */,
+				E77E7E61241B3C560068B01C /* GameScene.swift */,
+				E77E7E63241B3C560068B01C /* GameViewController.swift */,
+				E77E7E65241B3C560068B01C /* Main.storyboard */,
+				E77E7E68241B3C580068B01C /* Assets.xcassets */,
+				E77E7E6A241B3C580068B01C /* LaunchScreen.storyboard */,
+				E77E7E6D241B3C580068B01C /* Info.plist */,
+			);
+			path = SolcOptimizeTest;
+			sourceTree = "<group>";
+		};
+		F96098A4359E0BF3D109348F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB2DCD5C40E468C1676045D7 /* Pods_SolcOptimizeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77E7E57241B3C560068B01C /* SolcOptimizeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77E7E70241B3C580068B01C /* Build configuration list for PBXNativeTarget "SolcOptimizeTest" */;
+			buildPhases = (
+				F5E894B245F3DEACA4AFC0B1 /* [CP] Check Pods Manifest.lock */,
+				E77E7E54241B3C560068B01C /* Sources */,
+				E77E7E55241B3C560068B01C /* Frameworks */,
+				E77E7E56241B3C560068B01C /* Resources */,
+				287FE5F5BB33E03EBD52B148 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolcOptimizeTest;
+			productName = SolcOptimizeTest;
+			productReference = E77E7E58241B3C560068B01C /* SolcOptimizeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77E7E50241B3C560068B01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "飯田白米";
+				TargetAttributes = {
+					E77E7E57241B3C560068B01C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E77E7E53241B3C560068B01C /* Build configuration list for PBXProject "SolcOptimizeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77E7E4F241B3C560068B01C;
+			productRefGroup = E77E7E59241B3C560068B01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77E7E57241B3C560068B01C /* SolcOptimizeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77E7E56241B3C560068B01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77E7E67241B3C560068B01C /* Main.storyboard in Resources */,
+				E77E7E5E241B3C560068B01C /* GameScene.sks in Resources */,
+				E77E7E69241B3C580068B01C /* Assets.xcassets in Resources */,
+				E77E7E6C241B3C580068B01C /* LaunchScreen.storyboard in Resources */,
+				E77E7E60241B3C560068B01C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		287FE5F5BB33E03EBD52B148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolcOptimizeTest/Pods-SolcOptimizeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolcOptimizeTest/Pods-SolcOptimizeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolcOptimizeTest/Pods-SolcOptimizeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E894B245F3DEACA4AFC0B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolcOptimizeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77E7E54241B3C560068B01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77E7E84241B54650068B01C /* CompileOpt4.swift in Sources */,
+				E77E7E62241B3C560068B01C /* GameScene.swift in Sources */,
+				E77E7E77241B3D790068B01C /* TestSolcOptimize.swift in Sources */,
+				E77E7E78241B3D790068B01C /* Web3Helper.swift in Sources */,
+				E77E7E64241B3C560068B01C /* GameViewController.swift in Sources */,
+				E77E7E5C241B3C560068B01C /* AppDelegate.swift in Sources */,
+				E77E7E82241B4CB10068B01C /* CompileOpt5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E77E7E65241B3C560068B01C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77E7E66241B3C560068B01C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77E7E6A241B3C580068B01C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77E7E6B241B3C580068B01C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77E7E6E241B3C580068B01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77E7E6F241B3C580068B01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77E7E71241B3C580068B01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3046021FAC57CBAE68EA26B /* Pods-SolcOptimizeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2J92745VF;
+				INFOPLIST_FILE = SolcOptimizeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hakumai.SolcOptimizeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77E7E72241B3C580068B01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6067F6B44B7DDA262612749 /* Pods-SolcOptimizeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2J92745VF;
+				INFOPLIST_FILE = SolcOptimizeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hakumai.SolcOptimizeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77E7E53241B3C560068B01C /* Build configuration list for PBXProject "SolcOptimizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77E7E6E241B3C580068B01C /* Debug */,
+				E77E7E6F241B3C580068B01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77E7E70241B3C580068B01C /* Build configuration list for PBXNativeTarget "SolcOptimizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77E7E71241B3C580068B01C /* Debug */,
+				E77E7E72241B3C580068B01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77E7E50241B3C560068B01C /* Project object */;
+}
